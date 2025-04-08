@@ -1,6 +1,9 @@
 # PainelAutomatico
 Automação para abrir o painel de monitoramento de GEITS
 
+-Ativando ambiente virtual
+.\venv\Scripts\activate
+
 ✅ Gerar um executável com PyInstaller
 -Instale o PyInstaller:
   pip install pyinstaller

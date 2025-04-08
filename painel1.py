@@ -37,6 +37,14 @@ def abrirPainel1 (options, link):
             component = wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='option-true-radiogroup-3']")))
             component.click()
 
+        #Desmarca Time
+        try:
+            component3 = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[3]/div[2]/div[2]/fieldset/div[3]/div[2]/div/div/div/label[1]/div/span")))
+            component3.click()
+        except TimeoutException:
+            driver.find_element(By.XPATH, "/html/body/div[3]/div[2]/div[2]/fieldset/div[3]/div[2]/div/div/div/label[1]/div/span").click()
+
+
         #Iniciar o Painel clicando no botão Start TV1
         try:
             component = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[3]/div[2]/div[2]/div/div/button")))

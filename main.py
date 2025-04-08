@@ -32,7 +32,7 @@ while True:
         driverPainel1.window_handles
         driverZabbix.window_handles
         driverPainel2.window_handles
-        time.sleep(20)
+        time.sleep(5)
 
     except WebDriverException:
         # se qualquer driver estiver fechado, fecha os outros
