@@ -6,7 +6,7 @@ Automação para abrir o painel de monitoramento de GEITS
   pip install pyinstaller
   
 -Gere o executável com:
-  pyinstaller --onefile --windowed abrir_chrome.py 
+  pyinstaller --onefile --windowed main.py 
   
   --onefile: empacota tudo em um único .exe
   --windowed: não abre janela de terminal (ideal para apps com interface gráfica ou sem log no console)

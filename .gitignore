@@ -1,3 +1,8 @@
 build/
 dist/
 profile/
+venv/
+.wdm/
+.idea/
+__pycache__/
+PainelAutomatico.zip
